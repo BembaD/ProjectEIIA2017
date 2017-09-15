@@ -26,5 +26,12 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+
+        public ActionResult Avion()
+        {
+            ViewBag.Message = "Your avion listing.";
+
+            return View();
+        }
     }
 }
